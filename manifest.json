@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "VirusTotal Checker",
+    "version": "1.0",
+    "permissions": ["activeTab", "https://www.virustotal.com/"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
